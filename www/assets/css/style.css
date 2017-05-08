@@ -1,0 +1,25 @@
+.bg-1 { 
+      background-color: #6b9a2b;
+      color: #ffffff;
+  }
+  .bg-2 { 
+      background-color: #474e5d;
+      color: #ffffff;
+  }
+  .bg-3 { 
+      background-color: #ffffff;
+      color: #555555;
+  }
+  .container-fluid {
+      padding-top: 70px;
+      padding-bottom: 70px;
+  }
+  
+  .navbar-default{
+      background-color: #6b9a2b;
+      border-color: #6b9a2b;
+  }
+  
+  .navbar-default .navbar-nav>li>a{
+      color: #fff;
+  }

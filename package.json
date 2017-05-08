@@ -1,0 +1,27 @@
+{
+  "name": "angular-ui-router",
+  "version": "1.0.0",
+  "description": "angular advance ui r0outer",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HubMahesh/angular-ui-router.git"
+  },
+  "keywords": [
+    "angular",
+    "ui",
+    "router"
+  ],
+  "author": "Mahesh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HubMahesh/angular-ui-router/issues"
+  },
+  "homepage": "https://github.com/HubMahesh/angular-ui-router#readme",
+  "dependencies": {
+    "bower": "^1.8.0"
+  }
+}
