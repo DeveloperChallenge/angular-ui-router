@@ -5,19 +5,24 @@ angular.module("routerApp",['ui.router'])
     $urlRouterProvider.otherwise('/home');
     $stateProvider.state('home',{
         url:'/home',
-        template:'<home></home>'
-    }).state('about',{
+        component: 'home'
+    })
+    .state('about',{
         url:'/about',
-        template:'<about></about>'
-    }).state('users',{
+        component: 'about',
+    })
+        
+    .state('users',{
         url:'/users',
-        template:'<users></users>'
-    }).state('profile',{
+        component: 'users'
+    })
+    .state('profile',{
         url:'/profile',
-        template:'<profile></profile>'
-    }).state('contact',{
+        component: 'profile'
+    })
+    .state('contact',{
         url:'/contact',
-        template:'<contact>'
+        component: 'contact'
     })
 })
 
